@@ -1,0 +1,286 @@
+/*Navigaton menu/*/
+
+body{overflow-x:hidden;}
+
+ #firstUl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+
+  .secUlColor
+  {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .firstUlColor
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+
+  li a:hover:not(.active) {
+    background-color:rgb(199, 195, 195);
+  }
+  
+  .active {
+    background-color:  #cccccc;
+  }
+
+  #Fashion{
+
+     color:white;
+     font-size: 30px;
+     margin-left: 30%;
+  }
+
+  /*svg icons confih*/
+
+  #SvgDiv
+  {
+    padding-left: 80%;
+    height:30px;
+    
+  }
+
+ #Prof{height:2em;}
+ #Bag{height:2em;}
+ #Fav{height:2em;}
+ 
+ #ProfCheck
+ {
+   margin-top:12px;
+   padding-right:-10em;
+ }
+
+ /*end of config*/
+
+
+  /*End of navigation menu*/
+
+/*second nav menu*/
+
+#secondUl
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+
+
+/*Promo div*/
+
+#Delivery
+{
+
+    background-color:#ff4d4d;
+    color:white;
+    text-align: center;
+    height:2em;
+    padding-top: 1%;
+}
+
+/*End of promo div*/
+
+/*Blue promo div*/
+
+
+
+
+#BlueDiv
+{
+  background-color:#1f80db;
+  color:white;
+  height: 5em;
+  text-align: center;
+}
+
+
+/*
+#HighGiv{
+
+  padding-bottom: 7em;
+}
+
+*/
+
+
+#spacer1
+{
+  height: 30em;
+}
+
+#spacer5
+{
+   height:7em;
+}
+
+#ColDiv
+{
+  /*
+  position: relative;
+  z-index: 3;
+  padding-bottom: 10em;
+  text-align: center;
+  */
+  text-align: center;
+  background-color: #333;
+  display: inline;
+
+}
+
+
+  /*Main Banner*/
+
+  #MainBanner{
+   width: 80%;
+   height:100% ;
+   margin: 10%;
+   margin-top: 10%;
+   z-index: 0;
+
+  }
+
+  #BlackBar
+  {
+    /*
+    position:relative;
+    z-index: 0;
+    padding-top: 1em;
+
+    */
+   
+
+  }
+
+  #TextMainBannerHolder{
+
+    margin-top: -34%;
+    margin-left:40%;
+  }
+
+  h2{
+      color:white;
+      font-size: 30px;
+    }
+
+ #UrbanCenterText
+ {
+     color: white;
+     font-size: 20px;
+     text-align: center;
+     position: relative;
+     /*padding-bottom:15em; */
+     margin-bottom:-21%;
+     z-index: 1;
+ }
+
+ #MainBannerButton
+ {
+
+    background-color:white;
+    margin-left:11%;
+    width: 20%;
+    height: 3em;
+    
+ }
+
+ /*End of main banner*/
+
+ 
+  
+ #footerPush
+ {
+   margin-bottom:100px;
+ }
+
+#ThreePics
+{
+  padding-top:-10em;
+}
+
+#SixPics
+{
+  padding-top:10em;
+
+}
+
+#twoPics
+{
+  
+}
+
+
+
+/*Large pics component*/
+
+/*Footer components links*/
+
+#FooterSecond
+{
+    margin-right:30%;
+    display:block;
+
+}
+
+
+#Maintext
+{
+  padding-bottom:90%;
+}
+
+#TwoPicsMover
+{
+
+  padding-bottom:80%;
+}
+
+
+#spacerTwo
+{
+  height:100px;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+#footerSub
+{
+   margin-right:80%;
+   padding-bottom: -80%;
+}
+
+#spacer2
+{
+  margin-top:-4%;
+  vertical-align: middle;
+
+
+}
